@@ -307,6 +307,10 @@ def generate_react_props(widget: Widget) -> dict:
         "avatar": "Avatar",
         "tooltip": "Tooltip",
         "tabs": "Tabs",
+        "accordion": "Accordion",
+        "navbar": "Navbar",
+        "sidebar": "Sidebar",
+        "form": "Form",
     }
 
     component_name = type_map.get(widget.widget_type, "Widget")
